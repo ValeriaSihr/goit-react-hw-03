@@ -1,4 +1,5 @@
 import css from './SearchBox.module.css'
+
 const SearchBox = ({ value, onChange }) => {
   return (
     <div className={css.searchbar}>

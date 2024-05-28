@@ -1,4 +1,4 @@
-import css from '../ContactList'
+import css from './ContactList'
 import Contact from "./Contact/Contact";
 
 
