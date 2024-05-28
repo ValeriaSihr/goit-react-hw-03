@@ -1,0 +1,37 @@
+.formikForm {
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: start;
+width: auto;
+}
+
+.formikLabel {
+font-size: 20px;
+}
+
+.formikField{
+    padding: 0 10px;
+    width: 375px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.formikBtn {
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #FFFACD;
+  color: black;
+  padding: 0 20px;
+  
+
+  &:hover{
+   background-color: #FFE4B5;
+  }
+}
+
